@@ -1,0 +1,9 @@
+* body{
+    background-color: #7db7f9;
+}
+ body { font-family: 'Poppins', sans-serif; margin: 0; padding: 20px; }
+  .wishlist-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+  .item { background: white; padding: 15px; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); text-align: center; }
+  img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; }
+  .remove-btn { background: crimson; color: white; border: none; padding: 8px 12px; border-radius: 5px; cursor: pointer; margin-top: 10px; }
+  .remove-btn:hover { background: darkred; }

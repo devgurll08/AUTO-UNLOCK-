@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Unlock</title>
+</head>
+<body>
+    <style>body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #005f73, #0a9396);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .login-box {
+      background: #001219;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      width: 320px;
+    }
+
+    .login-box h2 {
+      margin-bottom: 30px;
+      font-size: 24px;
+      text-align: center;
+      color: #94d2bd;
+    }
+
+    .login-box label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background: #94d2bd;
+      color: #001219;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .login-box button:hover {
+      background: #e9d8a6;
+    }
+
+    .forgot {
+      text-align: right;
+      display: block;
+      font-size: 12px;
+      color: #ccc;
+      margin-top: -15px;
+      margin-bottom: 20px;
+    }</style>
+  <div class="login-box">
+    <h2>Auto Unlock Login</h2>
+    <form method="POST" action="/login">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+      <a class="forgot" href="SIGNUP.HTML">Forgot Password?</a>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</html>
+</body>
+</html>
